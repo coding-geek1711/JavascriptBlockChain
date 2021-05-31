@@ -1,0 +1,17 @@
+.block-container {
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* max-width: 300px; */
+    background-color: #c4c4c4;
+    padding: 10px;
+}
+
+.prev-hash, .data, .nonce, .current-hash{
+    display: flex;
+    justify-content: space-between;
+}
